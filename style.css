@@ -1,116 +1,97 @@
-@media (max-width: 1440px) {
-  * {
-    margin: 0 5px;
-    padding: 0;
-    font-family: "League Spartan", sans-serif;
-    font-size: 15px;
-  }
-
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-
-  .container {
-    width: 1000px;
-    box-shadow: 2px 2px 4px 2px;
-    padding: 40px;
-  }
-
-  .flex-box {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .stars {
-    width: 500px;
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .stars-col {
-    background-color: hsl(337, 100%, 96%);
-    padding: 5px 20px;
-    border-radius: 3px;
-    margin-bottom: 5px;
-    padding: 5px 20px;
-    font-weight: 700;
-    color: hsl(300, 43%, 22%);
-    width: 300px;
-    height: 30px;
-    gap: 50px;
-  }
-
-  h1 {
-    font-weight: 700;
-    font-size: 3em;
-    color: hsl(300, 43%, 22%);
-    padding: 5px 10px;
-    width: 350px;
-  }
-
-  h2 {
-    width: 350px;
-    font-weight: 400;
-    font-size: 1em;
-    color: hsl(300, 43%, 22%);
-    padding: 5px 10px;
-  }
-
-  #stars-2 {
-    align-self: center;
-  }
-
-  #stars-3 {
-    align-self: end;
-  }
-
-  .title {
-    width: 300px;
-  }
-
-  .cards {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
-    height: 250px;
-  }
-
-  .card-box {
-    background-color: hsl(300, 43%, 22%);
-    width: 300px;
-    height: 200px;
-    border-radius: 5px;
-    justify-content: space-between;
-  }
-
-  #card-2 {
-    align-self: center;
-  }
-
-  #card-3 {
-    align-self: end;
-  }
+* {
+  margin: 0 5px;
+  padding: 0;
+  font-family: "League Spartan", sans-serif;
+  font-size: 15px;
 }
 
-@media (max-width: 375px) {
-  .flex-box,
-  .stars,
-  .cards {
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-  }
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
-  #card-3 {
-    align-self: center;
-  }
+.container {
+  width: 1000px;
+  box-shadow: 2px 2px 4px 2px;
+  padding: 40px;
+}
 
-  body {
-  }
+.flex-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.stars {
+  width: 500px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.stars-col {
+  background-color: hsl(337, 100%, 96%);
+  padding: 5px 20px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  padding: 5px 20px;
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+  width: 300px;
+  height: 30px;
+  gap: 50px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3em;
+  color: hsl(300, 43%, 22%);
+  padding: 5px 10px;
+  width: 350px;
+}
+
+h2 {
+  width: 350px;
+  font-weight: 400;
+  font-size: 1em;
+  color: hsl(300, 43%, 22%);
+  padding: 5px 10px;
+}
+
+#stars-2 {
+  align-self: center;
+}
+
+#stars-3 {
+  align-self: end;
+}
+
+.title {
+  width: 300px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  height: 250px;
+}
+
+.card-box {
+  background-color: hsl(300, 43%, 22%);
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+
+#card-2 {
+  align-self: center;
+}
+
+#card-3 {
+  align-self: end;
 }
